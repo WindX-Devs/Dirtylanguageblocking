@@ -1,4 +1,8 @@
-name: ShulkerBoxCrashFixer
+name: Dirtylanguageblocking
 version: '${project.version}'
 author: "WindX Devs"
-main: top.WindXDevs.shulkerboxcrashfixer.ShulkerBoxCrashFixer
+main: top.WindXDevs.Dirtylanguageblocking.Dirtylanguageblocking
+
+commands:
+  zhpb:
+    description: 脏话屏蔽插件
