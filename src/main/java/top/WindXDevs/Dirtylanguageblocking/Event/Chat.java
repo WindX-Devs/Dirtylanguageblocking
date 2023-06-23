@@ -9,8 +9,12 @@ public class Chat implements Listener {
 
     @EventHandler
     public void onChat(PlayerChatEvent e) {
-        if (Dirtylanguageblocking.getInstance().getConfig().getStringList("Chat").contains(e.getMessage())){
-            e.setMessage(Dirtylanguageblocking.getInstance().getConfig().getString("replace"));
+        for (String pbzh : Dirtylanguageblocking.getInstance().getConfig().getStringList("Chat")) {
+            if (e.getMessage().contains(pbzh)) {
+                String replaceMessage = Dirtylanguageblocking.getInstance().getConfig().getString("replace");
+                e.setMessage(replaceMessage);
+                break;
+            }
         }
     }
 }
