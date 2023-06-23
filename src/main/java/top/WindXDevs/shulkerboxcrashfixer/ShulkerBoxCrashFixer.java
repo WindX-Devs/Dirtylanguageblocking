@@ -7,7 +7,6 @@ public class ShulkerBoxCrashFixer extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         this.getServer().getLogger().info("---------------------------------");
         this.getServer().getLogger().info("这是一个来自WindX Devs的潜影盒修复插件");
         this.getServer().getLogger().info("支持版本: 1.12.2");
@@ -19,7 +18,6 @@ public class ShulkerBoxCrashFixer extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
         this.getServer().getLogger().info("---------------------------------");
         this.getServer().getLogger().info("这是一个来自WindX Devs的潜影盒修复插件");
         this.getServer().getLogger().info("支持版本: 1.12.2");
