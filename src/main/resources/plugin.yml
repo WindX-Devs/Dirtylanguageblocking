@@ -1,0 +1,4 @@
+name: ShulkerBoxCrashFixer
+version: '${project.version}'
+author: "WindX Devs"
+main: top.WindXDevs.shulkerboxcrashfixer.ShulkerBoxCrashFixer
